@@ -1,10 +1,9 @@
 <?php
-// Database Configuration
-// Use environment variables for production (Railway) or fallback to local values
-define('DB_HOST', getenv('DB_HOST') ?: 'localhost');
-define('DB_USER', getenv('DB_USER') ?: 'root');
-define('DB_PASS', getenv('DB_PASS') ?: '');
-define('DB_NAME', getenv('DB_NAME') ?: 'sistem_undian_menu');
+// Database Configuration for InfinityFree
+define('DB_HOST', 'sql100.infinityfree.com');
+define('DB_USER', 'if0_40599536');
+define('DB_PASS', 'YOUR_PASSWORD_HERE');  // Replace with password from InfinityFree
+define('DB_NAME', 'if0_40599536_undian');
 
 // Create database connection
 $conn = mysqli_connect(DB_HOST, DB_USER, DB_PASS, DB_NAME);
