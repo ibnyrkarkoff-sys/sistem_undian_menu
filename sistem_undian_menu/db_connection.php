@@ -2,7 +2,7 @@
 // Database Configuration for InfinityFree
 define('DB_HOST', 'sql100.infinityfree.com');
 define('DB_USER', 'if0_40599536');
-define('DB_PASS', 'YOUR_PASSWORD_HERE');  // Replace with password from InfinityFree
+define('DB_PASS', 'hZhczXu84lQfyL');  // Replace with password from InfinityFree
 define('DB_NAME', 'if0_40599536_undian');
 
 // Create database connection
